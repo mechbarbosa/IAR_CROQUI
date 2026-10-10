@@ -1,0 +1,17 @@
+# Micro-framework backend responsável por criar o servidor web e gerenciar as rotas (/ e /api/status)
+Flask==3.0.3
+
+# SDK oficial do Firebase para Python, utilizado no app.py para autenticar com o Realtime Database via credentials.Certificate
+firebase-admin==6.5.0
+
+# Biblioteca (PIL) para processamento e manipulação de imagens no Python
+Pillow==10.4.0
+
+# Carrega variáveis de ambiente (como credenciais e chaves secretas) a partir de um arquivo .env local
+python-dotenv==1.0.1
+
+# Biblioteca para realizar requisições HTTP (GET, POST, etc.) para APIs externas ou serviços web
+requests==2.32.3
+
+# Servidor HTTP WSGI necessário para executar e hospedar a aplicação em ambientes de produção (como Vercel ou Render)
+gunicorn==22.0.0

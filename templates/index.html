@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Croqui em Tempo Real</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>🎨 Croqui Interativo em Tempo Real</h1>
+    <div class="toolbar">
+      <label>Cor: <input type="color" id="colorPicker" value="#000000"></label>
+      <label>Espessura: <input type="range" id="strokeWidth" min="1" max="20" value="3"></label>
+    </div>
+  </header>
+
+  <main>
+    <canvas id="croquiCanvas" width="800" height="500"></canvas>
+  </main>
+
+  <!-- SDKs Web do Firebase via CDN -->
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-database-compat.js"></script>
+  
+  <!-- Scripts do Projeto -->
+  <script src="{{ url_for('static', filename='js/firebase-config.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/canvas.js') }}"></script>
+</body>
+</html>

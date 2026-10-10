@@ -1,0 +1,17 @@
+# Ignora a pasta de dependências do Node.js (bibliotecas e pacotes instalados via npm/yarn)
+node_modules/
+
+# Ignora a pasta do ambiente virtual do Python (onde ficam os pacotes isolados do projeto)
+.venv/
+
+# Ignora a pasta de cache do Python (onde são salvos os arquivos bytecode compilados)
+__pycache__/
+
+# Ignora qualquer arquivo individual compilado do Python (.pyc) em qualquer diretório
+*.pyc
+
+# Ignora o arquivo de variáveis de ambiente (contém chaves secretas, senhas e configurações sensíveis)
+.env
+
+# Ignora o arquivo JSON local com dados do projeto (evita expor informações locais ou banco de dados leve no Git)
+dados.json

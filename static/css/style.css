@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif; /* Define a família da fonte usada no corpo do documento (Arial com fallback para sans-serif) */
+  text-align: center; /* Alinha todo o texto contido no body ao centro */
+  background-color: #f4f4f9; /* Define a cor de fundo da página para um cinza bem claro com tom azulado */
+  margin: 0; /* Remove a margem externa padrão do elemento body */
+  padding: 20px; /* Adiciona um espaçamento interno de 20 pixels nas bordas do body */
+}
+
+.toolbar {
+  margin-bottom: 15px; /* Adiciona uma margem inferior de 15 pixels para afastar o elemento do conteúdo abaixo */
+  display: flex; /* Define o container como Flexbox para alinhar e distribuir seus elementos filhos facilmente */
+  justify-content: center; /* Centraliza os elementos filhos ao longo do eixo principal (horizontalmente) */
+  gap: 20px; /* Define um espaçamento de 20 pixels entre cada elemento filho do container */
+}
+
+canvas {
+  background-color: #ffffff; /* Define a cor de fundo da área do canvas como branca */
+  border: 2px solid #333; /* Adiciona uma borda sólida de 2 pixels de espessura na cor cinza escuro (#333) */
+  border-radius: 8px; /* Arredonda os cantos do canvas com um raio de 8 pixels */
+  cursor: crosshair; /* Altera o ponteiro do mouse para o formato de mira ao passar sobre o canvas */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Aplica uma sombra suave abaixo do canvas (deslocada 4px para baixo, com 10px de desfoque e 10% de opacidade) */
+}

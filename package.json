@@ -1,0 +1,21 @@
+{
+  "name": "00_PROJETO_CROQUI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mechbarbosa/IAR_CROQUI/tree/main"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AstaBorrego/projeto_croqui2/issues"
+  },
+  "homepage": "https://github.com/AstaBorrego/projeto_croqui2#readme"
+}
